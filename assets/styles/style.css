@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/*=================================Navegación====================================*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px;
+}
+
+@media screen and ( max-width: 768px ) {
+    .menu-container{
+        display: none;
+    }
+}
+
+.point {
+    color: #8E7BEF;
+    
+}
+
+/*===============================Navegación-Movil===============================*/
+
+.icon-menu-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon-menu-container {
+    display: flex;
+}
+
+@media screen and ( min-width: 769px ) {
+    .icon-menu-container {
+        display: none;
+    }
+}
+
+.icon-menu-container img {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+
+.icon-menu {
+    cursor: pointer;
+}
+
+.phone-nav {
+    width: 300px;
+}
+
+.phone-list {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px 0 0 16px;
+    background-color: white;
+    
+}
+
+.phone-list-item {
+    width: 100%;
+}
+
+.phone-list-item:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.phone-list-button {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.phone-nav-link {
+    display: block;
+    padding: 15px 0;
+}
+
+.deploy {
+    transform: translateX(-100%);
+    display: none;
+}
+
+/*=================================Intro============================================*/
+
+.intro {
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.elemento1 {
+    background-color: royalblue;
+}
+
+.elemento2 {
+    background-color: orangered;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
